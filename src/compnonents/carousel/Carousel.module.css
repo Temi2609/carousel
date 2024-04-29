@@ -1,0 +1,47 @@
+.carousel{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageContainer{
+    flex: 1;
+    position: relative;
+}
+.image{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+
+}
+.textContainer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0 , 0, 0.2);
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+
+.arrow:hover{
+    opacity: 0.8;
+
+}
+.arrowIcon{
+    font-style: 2em;
+}
